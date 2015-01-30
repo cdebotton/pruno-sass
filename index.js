@@ -9,6 +9,8 @@ function SassTask(params) {
   this.params = (params || {});
 }
 
+SassTask.displayName = 'SassTask';
+
 SassTask.getDefaults = function() {
   return {
     'entry': '::src/sass/index.sass',
