@@ -1,6 +1,6 @@
 {
   "name": "pruno-sass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A SASS mix for pruno that includes font-awesome, normalize.css.",
   "main": "index.js",
   "scripts": {
