@@ -1,6 +1,5 @@
 "use strict";
 
-var pruno = module.parent.require('pruno');
 var path = require('path');
 var streamqueue = require('streamqueue');
 var plugins = require('gulp-load-plugins')();
@@ -107,4 +106,4 @@ function distillOptions(Task, params) {
     }, {});
 }
 
-module.exports = pruno.extend(SassTask);
+module.exports = SassTask;
